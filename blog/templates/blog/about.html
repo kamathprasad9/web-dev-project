@@ -1,4 +1,58 @@
 {% extends "blog/base.html" %}
 {% block content %}
-    <h1>About Page</h1>
+{% load static %}
+
+<article class="media content-section">
+    <div class="row">
+        <h1 style="color: black; font-family: sans-serif; font-size: xx-large;">About Us ...</h1>   
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shubh Joshi, Tanmay Hatkar, and Prasad Kamath founded Social Star
+            Social Star was started in May 2019 with a single fact and grown since then to almost 100 pages.
+            They saw that there was enormous public interest in space,this is a blogger website where we introduce people to the wonders of the cosmos, bridging the gap between the scientific community and the general public to inspire and educate people from all walks of life.
+            It is the content reader for reading all your favorite blogs and news websites in one place.
+        </p> 
+        <p>   
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Space Facts was started in May 2012 with a single fact and grown since then to almost 100 pages.            
+            Content on the site is (mostly) written by the users using information from official space websites and is free to be copied/used simply cite/link to the URL of the quoted page. Unless stated in the article there is no specific publish date as these pages are updated and added to over time.
+            <br><br>
+            Our Vision: <br>
+            Know the cosmos and our place within it.
+            <br>
+            Our Mission <br>
+            Empowering the world's citizens to advance space science and exploration
+            </p><br>
+    </div> 
+</article>
+
+<article class="media content-section">
+    <div class="row">
+        <p class="col-md-4">
+            &quot;Start Social is home to thousands of communities, and authentic human connection.&quot;
+            <br>
+            <cite><img class="rounded-circle article-img" src="{% static 'blog/images/ssj.jpg' %}" alt="Customer 1 photo"> ~ Founder (Shubh Joshi)</cite>
+        </p>
+        <p class="col-md-4">
+            &quot;Our goal is to maintain user security and as well as bring in useful features constantly&quot;
+            <br>
+            <cite><img class="rounded-circle article-img" src="{% static 'blog/images/th.jpg' %}" alt="Customer 2 photo"> ~ CEO (Tanmay Hatkar)</cite>
+        </p>
+        <p class="col-md-4">
+            &quot;Whether you're into breaking news, sports, TV fan theories, there's a community on Star Social for you.&quot;
+            <br>
+            <cite><img class="rounded-circle article-img" src="{% static 'blog/images/pk2.jpg' %}" alt="Customer 3 photo"> ~ CFO (Prasad Kamath)</cite>
+        </p>
+    </div>                
+</article>
+
+<!-- <div class="container">        
+    
+</div> -->
+
+    
 {% endblock content %}
+
+
+<!--  -->
+
+<!-- <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i></button>
+<button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i></button>
+<button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-twitter mr-2"></i></button> -->
